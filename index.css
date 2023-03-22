@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  color: red;
+}
+
+textarea {
+  background-color: black;
+  color: red;
+}
+label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#comment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+button {
+  margin: 2%;
+  background-color: red;
+  color: black;
+  padding: 0.5%;
+  border: 500px;
+}
+
+button:hover {
+  background-color: white;
+  color: red;
+}
